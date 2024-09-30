@@ -12,9 +12,9 @@
 }
 .header-superior{
     background-image: url('./image/header.webp');
-    object-fit: contain;
+    background-size: cover;
+    height: 200px;
     width: 100%;
-    height: 150px;
 }
 .header-superior_enlace{
     background: rgb(3, 1, 1, 0.7);
@@ -112,3 +112,191 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
+/* Doy estilos al MAIN */
+/*SECCION UNO*/
+.main-Seccion_uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #040714;
+    padding: 30px;
+    text-align: center;
+}
+.main-Seccion_uno-descripcion {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.main-Seccion_uno-descripcion h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.main-Seccion_uno-descripcion h5 {
+    font-size: 13px;
+}
+.main-Seccion_uno_imagen img{
+    object-fit: fill;
+    height: 200px;
+    width: 100%;
+}
+
+/*SECCION DOS*/
+.main-Seccion_dos {
+    background: #040714;
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-Seccion_dos_titulo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main-Seccion_dos_titulo h2{
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.main-Seccion_dos_titulo h4{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-Seccion_dos_eleccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+}
+.main-Seccion_dos_eleccion_cabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3px solid grey;
+}
+.main-Seccion_dos_eleccion_cabeceraOpciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-Seccion_dos_eleccion_cabeceraOpciones h2 {
+    background: #02d6e8;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px 25px;
+    color: #040714;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.main-Seccion_dos_eleccion_cabeceraOpciones a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+.main-Seccion_dos_eleccion_Estrenos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.signo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    text-align: center;
+}
+.main-Seccion_dos_eleccion_Eventos{
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*SECCION CUATRO*/
+.main-Seccion_cuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #040714;
+    padding: 30px;
+    text-align: center;
+}
+.main-Seccion_cuatro_superior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-Seccion_cuatro_superior_descripcion {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.main-Seccion_cuatro_superior_descripcion h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.main-Seccion_cuatro_superior_descripcion h5 {
+    font-size: 18px;
+}
+.main-Seccion_cuatro_superior_imagen img{
+    object-fit: fill;
+    height: 200px;
+    width: 100%;
+}
+.main-Seccion_cuatro_inferior {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-Seccion_cuatro_inferior_titulo {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.main-Seccion_cuatro_inferior_preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-Seccion_cuatro_inferior_preguntas a{
+    text-decoration: none;
+    color: white;
+    background-color: #00000086;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/*FOOTER*/
