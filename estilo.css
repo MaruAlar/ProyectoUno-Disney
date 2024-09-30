@@ -300,3 +300,73 @@
 }
 
 /*FOOTER*/
+.footer { 
+    background:#000518;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-informacion {
+    display: flex;
+    flex-direction: column;
+}
+.footer-informacion_politicas_acuerdos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-informacion_politicas_acuerdos h3{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.footer-informacion_politicas_acuerdos h4 {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.footer-informacion_ayuda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px solid grey ;
+}
+.footer-informacion_ayuda h3 {
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-align: left;
+}
+.footer-empresas_plataformas {
+    display: flex;
+    flex-direction: column;
+}
+.footer-empresas_redes a {
+    align-items: baseline;
+    margin: 10px;
+}
+.footer-logo img {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+.footer-licencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-licencias p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 30px 0 30px;
+}
